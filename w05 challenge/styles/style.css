@@ -1,0 +1,21 @@
+#title {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#hero {
+    background-color: rgb(121, 121, 121);
+    max-width: 1600px;
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;   
+}
+
+.icon {
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 15px solid rgb(68, 68, 68);
+    margin: 50px;
+}

@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Permanent+Marker&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    font-size: 22px;
 }
 
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -30,6 +34,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #705D56;
@@ -37,15 +45,25 @@ main section {
 
 body {
     background-color: #5CC8FF;
+    font-family: "DM Serif Display", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #006C67;
+    font-family: "Permanent Marker",  "Brush Script MT", "Impact";
 }
 
 footer {
     background-color: #006C67;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer a {
@@ -62,14 +80,8 @@ footer p {
     font-size: 1.2em;
 }
 
-footer p:hover{
+footer p:hover {
     text-decoration: underline;
-}
-
-.book, .join {
-    background-color: #A3B18A;
-    color: black;
-    text-decoration: none;
 }
 
 .book:hover, .join:hover {
@@ -79,24 +91,63 @@ footer p:hover{
 
 .msg {
     background-color: #A3B18A;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
-.msg h2, .msg p {
+.msg h2 {
     color: black;
 }
 
+.msg p {
+    color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
 .home-title {
-    color: black
+    color: black;
+    font-family: "Permanent Marker", "Brush Script MT", "Impact";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
     color: black;
 }
 
+h2 {
+    margin: 0;
+}
+
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #006C67;
+}
+
+.book, .join {
+    background-color: #006C67;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Permanent Marker",  "Brush Script MT", "Impact";
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
