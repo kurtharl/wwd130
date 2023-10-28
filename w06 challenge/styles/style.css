@@ -1,0 +1,26 @@
+div {
+    display: grid;
+    grid-template-columns: 1080px 1080px;
+}
+
+img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 0px 25% 225px;
+}
+
+h1 {
+    font-size: 100%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 2;
+    text-align: center;
+}
+
+h2 {
+    background-color: grey;
+    color: darkred;
+    grid-column: 2/3;
+    text-align: center;
+    grid-row: 1/3;
+}
