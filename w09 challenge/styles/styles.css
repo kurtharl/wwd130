@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+#city {
+    margin: 1px;
+    padding: 1px;
+
+}
+
+#article {
+    background-color: white;
+    max-width: 300px;
+    margin: 1px;
+    padding: 1px;
+    text-align: center;
+}
+
+#article h1 {
+    color: steelblue;
+    font-size: 12px;
+}
+
+#engagement {
+    max-width: 300px;
+    background-color: rgb(26, 77, 136);
+    color: white;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+    align-content: center;
+    margin: 1px;
+    padding: 1px;
+}
+
+#first {
+     justify-self: center;
+}
+
+#second {
+    justify-self: center;
+}
+
+#third {
+    justify-self: center;
+}
+
+#read {
+    font-size: 12px;
+}
