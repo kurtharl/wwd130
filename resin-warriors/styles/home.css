@@ -223,6 +223,83 @@ footer p:hover {
   box-shadow: 5px 5px 10px black;
 }
 
+#splash {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: -100px;
+}
+
+#splash-box {
+  grid-column: 1/4;
+  grid-row: 1/4;
+  z-index: -1;
+  padding-bottom: 100px;
+}
+
+#splash-img {
+  width: 100%;
+  z-index: -1;
+}
+
+#splash-msg {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: #3D184E;
+  color: #F5E000;
+  text-align: center;
+  font-size: 1.7em;
+  font-family: "Courgette", sans-serif;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+#menu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 100px;
+}
+
+#menu-img {
+  margin: 0 auto;
+  justify-content: right;
+  box-shadow: 5px 5px 10px black;
+}
+
+#menu-msg {
+  grid-column: 2/3;
+  font-size: .85em;
+  font-family: "Patua One", Helvetica, sans-serif;
+  background-color: #B3A2E2;
+  align-self: center;
+  padding: 30px;
+  box-shadow: 5px 5px 10px black;
+}
+
+#box-img {
+  margin: 0 auto;
+  justify-content: center;
+  box-shadow: 5px 5px 10px black;
+}
+
+#box-msg {
+  font-size: 1.1em;
+  font-family: "Patua One", Helvetica, sans-serif;
+  background-color: #2E97A9;
+  align-self: center;
+  padding: 50px;
+  box-shadow: 5px 5px 10px black;  
+}
+
+#menu-grid h1 {
+  grid-column: 1/3;
+  text-align: center;
+  background-color: #3D184E;
+  color: #F5E000;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Courgette", sans-serif;
+}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
